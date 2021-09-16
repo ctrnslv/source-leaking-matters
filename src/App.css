@@ -1,0 +1,224 @@
+html {
+  box-sizing: border-box;
+  background-color: black;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+  padding: 0;
+  margin: 0;
+}
+
+.app {
+  width: 100%;
+  margin: 0 auto;
+}
+
+
+h1 {
+  margin-bottom: 20px;
+}
+
+p {
+  margin-bottom: 15px;
+}
+
+a:-webkit-any-link{
+  color:black;
+  text-decoration-line: none !important;
+}
+
+/*START NAVIGATION*/
+nav ul {
+  z-index: 9999;
+  list-style: none;
+  color: black;
+  position: fixed;
+  display: flex;
+  margin-bottom: 20px;
+}
+nav ul li {
+  padding: 20px;
+  margin: 0 20px;
+}
+nav ul li{
+  color: white;
+  text-decoration: none;
+}
+.current {
+  border-bottom: 4px solid white;
+}
+button {
+  font-family: inherit;
+  font-size: 12px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  outline: 0;
+  border: 1px solid white;
+  cursor: pointer;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0);
+  color: white;
+  margin: 5px 10px 5px 10px;
+  text-decoration: none;
+  padding: 5px;
+}
+button::after {
+  content: "";
+  background-color: #ffe54c;
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+  height: 100%;
+  top: 5px;
+  left: 5px;
+  transition: 0.2s;
+  text-decoration: none;
+}
+button:hover::after {
+  top: 0px;
+  left: 0px;
+  text-decoration: none;
+}
+
+.secondary{
+  float: right;
+}
+
+/*END NAVIGATION*/
+
+/* START INTRO_TEXT */
+.box-intro_txt{
+  width: 100%;
+  height: auto;
+  position: relative;
+  color:white;
+  padding:50px 50px;
+  /* background: linear-gradient(270deg,rgba(117, 150, 163, 0.35), rgba(165, 151, 110, 0.35), rgba(176, 138, 242, 0.35), rgba(125, 103, 166, 0.35)); 
+    background-size: 800% 800%;
+    -webkit-animation: AnimationName 10s ease infinite;
+    -moz-animation: AnimationName 10s ease infinite;
+    animation: AnimationName 10s ease infinite;*/
+}
+/* @-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationName { 
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+} */
+#title-intro_txt {
+  /* font-family: Anton; */
+  font-size: 1.75rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+}
+#descr-intro_txt {
+  font-size: 0.95rem;
+  line-height: 1.5;
+  margin: 5% 20%;
+  column-count: 1;
+  column-gap: 50px;
+  text-align: justify;
+  text-justify: inter-word;
+}
+/* END INTRO_TEXT */
+
+@import url('https://fonts.googleapis.com/css?family=Anton&display=swap');
+ * {
+	 padding: 0;
+	 margin: 0;
+	 box-sizing: border-box;
+}
+ svg {
+	 position: absolute;
+}
+ .wrapper {
+	 width: 100%;
+	 height: 80vh;
+	 overflow: hidden;
+   /* background: linear-gradient(270deg,rgba(117, 150, 163, 0.35), rgba(165, 151, 110, 0.35), rgba(176, 138, 242, 0.35), rgba(125, 103, 166, 0.35));
+   background-size: 800% 800%;
+   -webkit-animation: AnimationName 10s ease infinite;
+   -moz-animation: AnimationName 10s ease infinite;
+   animation: AnimationName 10s ease infinite; */
+}
+/* @-webkit-keyframes AnimationName {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+@keyframes AnimationName { 
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+} */
+
+ #container {
+	 height: 200px;
+	 width: 200px;
+	 margin: 200px auto 120px;
+	 position: relative;
+	 filter: url(#goo);
+}
+ #container .text {
+	 position: absolute;
+	 top: 50%;
+	 left: 50%;
+   text-align: center;
+	 transform: translate(-50%, -50%);
+	 /* font-family: Anton; */
+	 font-size: 3rem;
+   font-weight: bold;
+   line-height: 1;
+	 z-index: 999;
+	 color: white;
+}
+ /* #container .drop {
+	 height: 25px;
+	 width: 25px;
+	 border-radius: 15px;
+	 background-color: white;
+	 position: absolute;
+	 top: 50%;
+	 left: 30%;
+	 transform: translate(120%, -800%) scaleX(0.5);
+	 animation: move 6s cubic-bezier(0.3, 0.04, 0.74, 0.2) infinite;
+}
+ @keyframes move {
+	 0% {
+		 transform: translate(120%, -800%) scaleX(0.2);
+		 height: 60px;
+	}
+	 30% {
+		 transform: translate(120%, -200%);
+		 height: 30px;
+	}
+	 70% {
+		 transform: translate(120%, 100%);
+		 height: 30px;
+	}
+	 100% {
+		 transform: translate(120%, 800%) scaleX(0.2);
+		 height: 60px;
+	}
+} */
+ 
+
+
+

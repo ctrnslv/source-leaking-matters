@@ -1,0 +1,365 @@
+.button-atmo::after {
+  background-color: #b08af2;
+}
+
+#APpaper1 {
+    color: white;
+    border: 1px solid #b08af2;
+    background-color: #b08af2;
+    position: fixed;
+    margin-top: 1365px; 
+    margin-left:1310px;
+    width: 300px;
+    height: 1px;
+    padding: 1px 1px;
+    z-index: 9998;
+  }
+  
+  .point-APpaper1 {
+    background-color:#b08af2;
+    position:fixed;
+    display: flex;
+    justify-content: center;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    z-index: 9999;
+    margin-left: 1300px;
+    margin-top: 1310px;
+  }
+
+  .box-APpaper1{
+    background-color: black;
+    display: inline-block;
+    position:fixed;
+    width: 200px;
+    height: auto;
+    z-index: 9999;
+    margin-left: 1100px;
+    margin-top: 1365px;
+    border: 1px solid #b08af2;
+  }
+
+  .txt-APpaper1{
+    color: white;
+    font-size: 0.3rem;
+    margin: 20px;
+    column-gap: 20px;
+    z-index: 9999;
+  }
+
+  .box-Ai_int{
+    background-color: black;
+    display: inline-block;
+    position:fixed;
+    width: 400px;
+    height: auto;
+    z-index: 9999;
+    margin-left: 1100px;
+    margin-top: 1650px;
+    border: 1px solid #b08af2;
+  }
+
+  .txt-Ai_int{
+    color: white;
+    font-size: 0.3rem;
+    margin: 20px;
+    column-gap: 20px;
+    z-index: 9999;    
+    column-count: 3;
+  }
+
+  
+  .img {
+    background-image: url(../images/map-3000.png);
+    background-repeat: no-repeat;
+    position:relative;
+    width: 8400px;
+    height: 6700px;
+    z-index: 1;
+  }
+
+  .canvas{
+    width: 100%;    
+    /* max-width: 8400px;
+    width: 100%;
+    max-height: 6700px;
+    height: 100%; */
+  }
+
+  .tools{
+    z-index: 9999;
+    margin-top:90px; 
+    display: flex;
+    position: fixed;
+    float: right;
+    margin-left: auto; 
+    margin-right: 0;
+  }
+  
+  .point-At_txt {
+
+    margin-left: 1250px;
+    margin-top: 1130px;
+    background-color:#b08af2;
+    position:fixed;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    z-index: 9999;
+    display: flex;
+    justify-content: center;
+  }
+
+  .cova-label {
+    color:#ffe54c;
+    position:fixed;
+    width: 25px;
+    height: 10px;
+    z-index: 9999;
+    margin-left: 1230px;
+    margin-top: 1100px;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border: 1px solid white;
+    padding: 2px;
+  }
+
+  .box-At_txt{
+    background-color: #b08af2;
+    display: inline-block;
+    position:fixed;
+    width: 400px;
+    height: auto;
+    z-index: 9999;
+    margin-left: 650px;
+    margin-top: 1030px;
+    border: 1px solid #b08af2;
+    color: black;
+  }
+
+  .cit-At_txt a:-webkit-any-link {
+    text-decoration-line: underline !important;
+  }
+
+  .txt-At_txt{
+    font-size: 0.35rem;
+    margin: 20px;
+    column-count: 3;
+    column-gap: 20px;
+    z-index: 9999;
+  }
+
+  .cit-At_txt{
+    font-size: 0.3rem;
+    margin: 20px;
+    column-count: 2;
+    column-gap: 20px;
+    z-index: 9999;
+  }
+
+  .point-At_video1 {
+    background-color:#b08af2;
+    position:fixed;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    z-index: 9999;
+    margin-left: 680px;
+    margin-top: 810px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .video-At_video1 {
+    background-color: black;
+    width: 400px;
+    height: 206px;
+    margin-left: 750px;
+    margin-top: 520px;
+    z-index: 9999;
+    position:fixed;
+    border: 1px solid black;
+  }
+
+  .box-At_video1{
+    background-color: black;
+    display: inline-block;
+    position:fixed;
+    width: 200px;
+    height: auto;
+    z-index: 9999;
+    margin-left: 750px;
+    margin-top: 750px;
+    border: 1px solid #b08af2;
+  }
+
+  .txt-At_video1{
+    color: white;
+    font-size: 0.3rem;
+    margin: 20px;
+    column-gap: 20px;
+    z-index: 9999;
+  }
+
+  .video-At_video2 {
+    background-color: black;
+    width: 400px;
+    height: 206px;
+    margin-left: 1800px;
+    margin-top: 1140px;
+    z-index: 9999;
+    position:fixed;
+    border: 1px solid black;
+  }
+
+  .box-At_video2{
+    background-color: black;
+    display: inline-block;
+    position:fixed;
+    width: 200px;
+    height: auto;
+    z-index: 9999;
+    margin-left: 1580px;
+    margin-top: 1140px;
+    border: 1px solid #b08af2;
+  }
+
+  .txt-At_video2{
+    color: white;
+    font-size: 0.3rem;
+    margin: 20px;
+    column-gap: 20px;
+    z-index: 9999;
+  }
+
+  .video-Avid1 {
+    background-color: black;
+    width: 300px;
+    height: 155px;
+    margin-left: 1450px;
+    margin-top: 205px;
+    z-index: 9999;
+    position:fixed;
+  }
+  .video-Avid2 {
+    background-color: black;
+    width: 100px;
+    height: 360px;
+    margin-left: 1450px;
+    margin-top: 365px;
+    z-index: 9999;
+    position:fixed;
+  }
+  .video-Avid3 {
+    background-color: black;
+    width: 300px;
+    height: 155px;
+    margin-left: 1450px;
+    margin-top: 760px;
+    z-index: 9999;
+    position:fixed;
+  }
+  .video-Avid4 {
+    background-color: black;
+    width: 300px;
+    height: 1px;
+    margin-left: 1450px;
+    margin-top: 920px;
+    z-index: 9999;
+    position:fixed;
+  }
+
+  .box-Av_txt{
+    background-color: black;
+    display: inline-block;
+    position:fixed;
+    width: 200px;
+    height: auto;
+    z-index: 9999;
+    margin-left: 1680px;
+    margin-top: 365px;
+    border: 1px solid #b08af2;
+  }
+
+  .txt-Av_txt{
+    color: white;
+    font-size: 0.3rem;
+    margin: 20px;
+    column-gap: 20px;
+    z-index: 9999;
+  }
+
+  .label-viggiano{
+    color:white;
+    background-color: rgba(0, 0 ,0, 0.7);
+    position:fixed;
+    width: 80px;
+    height: 25px;
+    z-index: 9999;
+    margin-left: 1190px;
+    margin-top: 810px;
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: bold;
+    border: 1px solid #b08af2;
+    padding: 10px;
+  }
+
+  .label-tramutola{
+    color:white;
+    background-color: rgba(0, 0 ,0, 0.7);
+    position:fixed;
+    width: 85px;
+    height: 25px;
+    z-index: 9999;
+    margin-left: 225px;
+    margin-top: 1235px;
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: bold;
+    border: 1px solid #b08af2;
+    padding: 10px;
+  }
+
+  .label-villa{
+    color:white;
+    background-color: rgba(0, 0 ,0, 0.7);
+    position:fixed;
+    width: 55px;
+    height: 25px;
+    z-index: 9999;
+    margin-left: 425px;
+    margin-top: 800px;
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: bold;
+    border: 1px solid #b08af2;
+    padding: 10px;
+    line-height: 0.95rem;
+  }
+
+  .label-lago{
+    color:white;
+    position:fixed;
+    width: 25px;
+    height: 10px;
+    z-index: 9999;
+    margin-left: 1925px;
+    margin-top: 1480px;
+    text-align: center;
+    font-style: italic;
+    font-size: 1rem;
+    font-weight: bold;
+    border: 1px solid #b08af2;
+    padding: 10px;
+    line-height: 0.9rem;
+  }
+
+
+
+
+  
+
+

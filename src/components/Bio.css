@@ -1,0 +1,159 @@
+.button-bio::after {
+  background-color: #a6986f;
+}
+
+.label-viggiano{
+  color:white;
+  background-color: rgba(0, 0 ,0, 0.7);
+  position:fixed;
+  width: 80px;
+  height: 25px;
+  z-index: 9999;
+  margin-left: 1190px;
+  margin-top: 810px;
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: bold;
+  border: 1px solid white;
+  padding: 10px;
+}
+
+.label-tramutola{
+  color:white;
+  background-color: rgba(0, 0 ,0, 0.7);
+  position:fixed;
+  width: 85px;
+  height: 25px;
+  z-index: 9999;
+  margin-left: 225px;
+  margin-top: 1235px;
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: bold;
+  border: 1px solid white;
+  padding: 10px;
+}
+
+.label-villa{
+  color:white;
+  background-color: rgba(0, 0 ,0, 0.7);
+  position:fixed;
+  width: 55px;
+  height: 25px;
+  z-index: 9999;
+  margin-left: 425px;
+  margin-top: 800px;
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: bold;
+  border: 1px solid white;
+  padding: 10px;
+  line-height: 0.95rem;
+}
+
+.label-lago{
+  color:white;
+  position:fixed;
+  width: 25px;
+  height: 10px;
+  z-index: 9999;
+  margin-left: 1925px;
+  margin-top: 1480px;
+  text-align: center;
+  font-style: italic;
+  font-size: 1rem;
+  font-weight: bold;
+  border: 1px solid white;
+  padding: 10px;
+  line-height: 0.9rem;
+}
+  
+.img {
+    background-image: url(../images/map-3000.png);
+    background-repeat: no-repeat;
+    position:relative;
+    width: 8400px;
+    height: 6700px;
+    z-index: 1;
+}
+
+.canvas{
+  width: 100%;    
+  /* max-width: 8400px;
+  width: 100%;
+  max-height: 6700px;
+  height: 100%; */
+}
+
+.tools{
+    z-index: 9999;
+    margin-top:90px; 
+    display: flex;
+    position: fixed;
+    float: right;
+    margin-left: auto; 
+    margin-right: 0;
+}
+
+.point-At_txt {
+
+  margin-left: 1250px;
+  margin-top: 1130px;
+  background-color:#ffe54c;
+  position:fixed;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  z-index: 9999;
+  display: flex;
+  justify-content: center;
+}
+
+.cova-label {
+  color:#ffe54c;
+  position:fixed;
+  width: 25px;
+  height: 10px;
+  z-index: 9999;
+  margin-left: 1230px;
+  margin-top: 1100px;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  border: 1px solid white;
+  padding: 2px;
+}
+
+.box-Bi_txt{
+  background-color: #a6986f;
+  display: inline-block;
+  position:fixed;
+  width: 400px;
+  height: auto;
+  z-index: 9999;
+  margin-left: 780px;
+  margin-top: 1110px;
+  border: 1px solid #a6986f;
+  color: black;
+}
+
+.cit-Bi_txt a:-webkit-any-link {
+  text-decoration-line: underline !important;
+}
+
+.txt-Bi_txt{
+  font-size: 0.35rem;
+  margin: 20px;
+  column-count: 3;
+  column-gap: 20px;
+  z-index: 9999;
+}
+
+.cit-Bi_txt{
+  font-size: 0.3rem;
+  margin: 20px;
+  column-count: 2;
+  column-gap: 20px;
+  z-index: 9999;
+}
+

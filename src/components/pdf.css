@@ -1,0 +1,21 @@
+.react-pdf__Document {
+    max-width:100%;
+    font-size: 0.75rem;
+    font-weight: bold;
+    position: relative;
+    display: flex;
+}
+
+#navigation{
+    margin-left:12px;
+}
+
+button{
+    color: black !important;
+    font-weight: bold;
+}
+.react-pdf__Page__canvas {
+    margin: 0 auto;
+    width: 80% !important;
+    height: 100% !important;
+}
