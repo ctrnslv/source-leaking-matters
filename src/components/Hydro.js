@@ -1,6 +1,17 @@
 import React from 'react';
 import './Hydro.css';
 import { TransformWrapper, TransformComponent } from "react-zoom-pan-pinch";
+import ReactPlayer from 'react-player';
+import Ha1pdf1 from './Ha1pdf1';
+import Ha1pdf2 from './Ha1pdf2';
+import Ha1pdf3 from './Ha1pdf3';
+import Ha1Arp1 from './Ha1Arp1';
+import Ha1Arp2 from './Ha1Arp2';
+import Ha2pdf1 from './Ha2pdf1';
+import Ha2pdf2 from './Ha2pdf2';
+import Ha2pdf3 from './Ha2pdf3';
+import Hapaper1 from './Hapaper1';
+import Hapaper2 from './Hapaper2';
 
 
 
@@ -13,7 +24,7 @@ function Hydroapp() {
       initialPositionX={-950}
       initialPositionY={-1550}
       minScale= {1.2}
-      maxScale={3}
+      maxScale={3.5}
       centerZoomedOut={true}
       limitToBounds={true}
     >
@@ -43,6 +54,82 @@ function Hydroapp() {
                   </div>
 
                   <div className="point-Hp_bub">+</div> 
+                  <div className="Hp_bub1"></div>
+                  <div className="Hp_bub2"></div>
+                  <div className="Hp_bub3"></div>
+                  <div className="Hp_bub4"></div>
+                  <div className="video-Hy_video2"><ReactPlayer width={'200px'} height={'206px'}url='https://www.youtube.com/watch?v=6MKGrPtlrHc&t=161s' /></div>
+                  <div className="box-Hv2_txt">
+                    <div className="txt-Hv2_txt"><b>Natural spring of Tramutola</b><br /><br />In the springs of Tramutola oil and water emerge together in the stream in the woods not far from the village.The natural emerging of hydrocarbons prompted research and drilling at the beginning of the 20th century by Agip, the National Oil company at the time. Agip exploited the Tramutola oil field by drilling 47 wells, 26 of which were productive in the period 1936-1943. The field was officially closed in 1959.The presence of oil in the spring varies over the years, with different coloration and gaseous bubbles that characterize the water stream. Such coexistence of hydrocarbons and water on the earth surface has been used by extractive corporations to justify histories of geological exploitation by describing Val d’Agri as the “land of energy by nature”.<br /><br />Video by Mimmo Nardozza, Images by A.Giocoli<br /><a href="https://www.cuorebasilicata.it/affioramenti-naturali-di-idrocarburi/">https://www.cuorebasilicata.it/affioramenti-naturali-di-idrocarburi/</a></div>
+                  </div> 
+
+                  <div className="point-Ha1">+</div> 
+                  <div className="Ha1_1"></div>
+                  <div className="Ha1_2"></div>
+                  <div className="Ha1_3"></div>
+                  <div id="Ha1pdf1">
+                    <Ha1pdf1/>
+                  </div>
+                  <div id="Ha1pdf2">
+                    <Ha1pdf2/>
+                  </div>
+                  <div id="Ha1pdf3">
+                    <Ha1pdf3/>
+                  </div>
+                  <div className="box-Ha1_txt">
+                    <div className="txt-Ha1_txt"><b>Analysis by Cova Contro: hydrocarbons in the spring</b><br /><br />During the onset of an anomalous black spot near the Agri river and the Pertusillo lake connection point, the association Cova Contro commissioned, with the collaboration of two local inhabitants, the analysis of a water sample of the local Casuriedd spring, located in an intermediate position between the Val d’Agri Oil Center and Pertusillo Lake.The results highlighted high levels of hydrocarbons and nitrogen in the drinking water, with hydrocarbon parameters that would be four times the regulated legal threshold for spring waters.<br /><br /><a href="https://covacontro.org/idrocarburi-nella-sorgente-tra-cova-e-pertusillo-a-casuriedd-grumento-anche-livelli-di-azoto-elevati-ma-siamo-in-attesa-di-altre-analisi"> https://covacontro.org/idrocarburi-nella-sorgente-tra-cova-e-pertusillo-a-casuriedd-grumento-anche-livelli-di-azoto-elevati-ma-siamo-in-attesa-di-altre-analisi/</a></div>
+                  </div> 
+                  <div className="video-Hy_video1"><ReactPlayer width={'200px'} height={'206px'}url='https://www.youtube.com/watch?v=6MKGrPtlrHc&t=161s' /></div>
+                  <div className="video-Hy_video3"><ReactPlayer width={'200px'} height={'206px'}url='https://www.youtube.com/watch?v=6MKGrPtlrHc&t=161s' /></div>
+                  <div className="box-Hv1_txt">
+                    <div className="txt-Hv1_txt"><b>Lieutenant Giuseppe di Bello</b><br /><br />In January 2010, lieutenant of the provincial police Giuseppe di Bello and Maurizio Bolognetti, leader of the Lucanian Radical Party, self-financed independent analyses to shed light on the state of health of Val d’Agri waters and Pertusillo Lake. From the analysis biological and chemical pollutants attributable to industrial operations of oil extraction and wastewater reinjection emerged and Di Bello informed the press and the Prosecutor's Office. A file was opened by the prosecutor against Di Bello : the lieutenant was sentenced on appeal of the crime of disclosure of official secrecy, suspended and later returned to service as a guard at the Provincial Museum of Potenza.In 2018 the Supreme Court finally annulled the sentences in first and second degree. In this video from 2013, Giuseppe Di Bello shows the phenomena of pollution affecting the land above the Pertusillo lake and the water reservoir.<br /><br /><a href="https://www.basilicata24.it/2018/12/sentenza-assoluzione-bello-un-processo-non-avrebbe-mai-dovuto-celebrato-61081/">https://www.basilicata24.it/2018/12/sentenza-assoluzione-bello-un-processo-non-avrebbe-mai-dovuto-celebrato-61081/</a></div>
+                  </div> 
+
+                  <div id="Ha1Arp1">
+                    <Ha1Arp1/>
+                  </div>
+                  <div id="Ha1Arp2">
+                    <Ha1Arp2/>
+                  </div>
+                  <div className="box-HaArp_txt">
+                    <div className="txt-HaArp_txt">Following the Oil Spill from the Val d’Agri Oil Center in February 2017, ARPAB set up a monitoring system based on a network of piezometers inside and outside the plant to monitor contamination of surface and underground water.The sampling highlighted the contamination of underground water and the migration of contaminants through the water network.In face of non-fulfillment and delays by Eni with respect to the provisions imposed by the Basilicata Region aimed at stopping the diffusion of pollutants, the regional council approved the suspension of all the activities of the Viggiano Oil Center for 90 days.<br /><br /><a href="https://www.regione.basilicata.it/giunta/site/giunta/department.jsp?dep=100050&area=3027479&level=1">https://www.regione.basilicata.it/giunta/site/giunta/department.jsp?dep=100050&area=3027479&level=1</a></div>
+                  </div> 
+
+                  <div className="point-Ha2">+</div> 
+                  <div className="Ha2_1"></div>
+                  <div className="Ha2_2"></div>
+                  <div className="Ha2_3"></div>
+                  <div id="Ha2pdf1">
+                    <Ha2pdf1/>
+                  </div>
+                  <div id="Ha2pdf2">
+                    <Ha2pdf2/>
+                  </div>
+                  <div id="Ha2pdf3">
+                    <Ha2pdf3/>
+                  </div>
+                  <div className="video-Ha2"><ReactPlayer width={'200px'} height={'206px'}url='https://www.youtube.com/watch?v=aQe6wYzQHok&t=1s' /></div>
+
+                  <div className="point-Ha">+</div> 
+                  <div id="Hapaper1">
+                    <Hapaper1/>
+                  </div>
+                  <div id="Hapaper2">
+                    <Hapaper2/>
+                  </div>
+                  <div className="box-Hapaper_txt">
+                    <div className="txt-Hapaper_txt"><b>Two scientific studies on Pertusillo Lake</b><br /><br />A number of scientific studies has been confirming phenomena of hydrocarbon contamination in the Pertusillo Freshwater reservoir over the years. The first one, by Prof. Albina Colella and Maria R. D'Orsogna, was published in 2013 and sampled water and subaqueous surface sediments from Lake Pertusillo, identifying and quantifying metals and hydrocarbons in water samples and in subaqueous grab sediment samples. With values exceeding the threshold limits of Italian legislation, when present. The study also identifies asymmetry in concentration between the subaqueous lake margins, with higher concentration in the margin interfered by oil-producing operations. The second study, published in 2021, studied water samples collected from Lake Pertusillo 10 months prior to and 3 months after the oil spill accident of 2017. The presence of hydrocarbons was verified and the analysis revealed specialized successional patterns of lake microbial communities that were potentially capable of degrading complex hydrocarbons.<br /><br /><a href="https://www.academia.edu/31259174/HYDROCARBON_CONTAMINATION_IN_WATERS_AND_SEDIMENTS_OF_THE_PERTUSILLO_FRESHWATER_RESERVOIR_VAL_DAGRI_SOUTHERN_ITALY">https://www.academia.edu/31259174/</a><br /><a href="https://pubmed.ncbi.nlm.nih.gov/33871774/">https://pubmed.ncbi.nlm.nih.gov/33871774/</a></div>
+                  </div> 
+
+                  <div className="point-Ha4">+</div> 
+                  <div className="Ha4_1"></div>
+                  <div className="Ha4_2"></div>
+                  <div className="Ha4_3"></div>
+                  <div className="Ha4_4"></div>
+                  <div className="box-Ha4_txt">
+                    <div className="txt-Ha4_txt"><b>Analysis by Cova Contro: algal bloom</b><br /><br />After a green spot was photographed by several citizens on the surface of the Pertusillo lake in the first half ofJune 2019, Cova Contro collected a water sample and had it analyzed by a laboratory in Roma. The results confirmed abundant flowering of coelastrum microsporum, a type of green algae different from the dinoflagellates algae studied during the oil spill from the Oil Center in 2017. According to the laboratory report green dinoflagellate algae are directly linked to the presence of hydrocarbons and nitrogen in the reservoir.<br /><br /><a href="https://covacontro.org/fioritura-algale-nel-pertusillo-alti-i-tenori-di-clorofilla-a-ed-abbondanti-le-alghe-verdi">https://covacontro.org/fioritura-algale-nel-pertusillo-alti-i-tenori-di-clorofilla-a-ed-abbondanti-le-alghe-verdi/</a></div>
+                  </div> 
+
 
                   <div className="label-viggiano">VIGGIANO</div> 
                   <div className="label-tramutola">TRAMUTOLA</div> 

@@ -170,4 +170,559 @@
   z-index: 9999;
 }
 
+.point-Hp_bub {
+  margin-left: 25px;
+  margin-top: 1130px;
+  background-color:#b5dbea;
+  position:fixed;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  z-index: 9999;
+  display: flex;
+  justify-content: center;
+}
 
+.Hp_bub1{
+  background-image: url(../images/WP_000567.jpg);
+  background-repeat: no-repeat;
+  width: 2592px;
+  height: 1944px;
+  background-size: 150px;
+  margin-left: 100px;
+  margin-top: 1050px;
+  position: fixed;
+  z-index: 9999;
+}
+
+.Hp_bub2{
+  background-image: url(../images/WP_000570.jpg);
+  background-repeat: no-repeat;
+  width: 1600px;
+  height: 1200px;
+  background-size: 150px;
+  margin-left: 260px;
+  margin-top: 1050px;
+  position: fixed;
+  z-index: 9999;
+}
+
+.Hp_bub3{
+  background-image: url(../images/WP_000585.jpg);
+  background-repeat: no-repeat;
+  width: 1600px;
+  height: 1200px;
+  background-size: 150px;
+  margin-left: 420px;
+  margin-top: 1050px;
+  position: fixed;
+  z-index: 9999;
+}
+
+.Hp_bub4{
+  background-image: url(../images/WP_001367.jpg);
+  background-repeat: no-repeat;
+  width: 1200px;
+  height: 1600px;
+  background-size: 100px;
+  margin-left: 580px;
+  margin-top: 1050px;
+  position: fixed;
+  z-index: 9999;
+}
+
+.video-Hy_video2 {
+  background-color: black;
+  width: 200px;
+  height: 206px;
+  margin-left: 500px;
+  margin-top: 820px;
+  z-index: 9999;
+  position:fixed;
+  border: 1px solid black;
+}
+
+.box-Hv2_txt{
+  background-color: black;
+  display: inline-block;
+  position:fixed;
+  width: 200px;
+  height: auto;
+  z-index: 9999;
+  margin-left: 710px;
+  margin-top: 820px;
+  border: 1px solid #b5dbea;
+}
+
+.txt-Hv2_txt{
+  color: white;
+  font-size: 0.3rem;
+  margin: 20px;
+  column-gap: 20px;
+  z-index: 9999;
+}
+
+.txt-Hv2_txt a:-webkit-any-link {
+  text-decoration-line: underline !important;
+  color: white;
+}
+
+.point-Ha1 {
+  margin-left: 1250px;
+  margin-top: 1350px;
+  background-color:#b5dbea;
+  position:fixed;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  z-index: 9999;
+  display: flex;
+  justify-content: center;
+}
+
+.Ha1_1{
+  background-image: url(../images/macchie-nere-pertusillo.jpeg.jpg);
+  background-repeat: no-repeat;
+  width: 1000px;
+  height: 614px;
+  background-size: 100px;
+  margin-left: 1210px;
+  margin-top: 1280px;
+  position: fixed;
+  z-index: 9999;
+}
+
+.Ha1_2{
+  background-image: url(../images/59285711_325595118095448_5247881781473968128_n-1.jpeg.jpg);
+  background-repeat: no-repeat;
+  width: 1920px;
+  height: 1080px;
+  background-size: 100px;
+  margin-left: 1315px;
+  margin-top: 1280px;
+  position: fixed;
+  z-index: 9999;
+}
+
+.Ha1_3{
+  background-image: url(../images/60123781_460586064512905_1980460590425964544_n.jpeg.jpg);
+  background-repeat: no-repeat;
+  width: 992px;
+  height: 1334px;
+  background-size: 75px;
+  margin-left: 1420px;
+  margin-top: 1280px;
+  position: fixed;
+  z-index: 9999;
+}
+
+#Ha1pdf1 {
+  color: white;
+  border: 1px solid #b5dbea;
+  background-color: #b5dbea;
+  position: fixed;
+  margin-left: 1150px;
+  margin-top: 1450px;
+  width: 150px;
+  height: 1px;
+  padding: 1px 1px;
+  z-index: 9998;
+}
+
+#Ha1pdf2 {
+  color: white;
+  border: 1px solid #b5dbea;
+  background-color: #b5dbea;
+  position: fixed;
+  margin-left: 1300px;
+  margin-top: 1450px;
+  width: 150px;
+  height: 1px;
+  padding: 1px 1px;
+  z-index: 9998;
+}
+
+#Ha1pdf3 {
+  color: white;
+  border: 1px solid #b5dbea;
+  background-color: #b5dbea;
+  position: fixed;
+  margin-left: 1450px;
+  margin-top: 1450px;
+  width: 150px;
+  height: 1px;
+  padding: 1px 1px;
+  z-index: 9998;
+}
+
+.box-Ha1_txt{
+  background-color: black;
+  display: inline-block;
+  position:fixed;
+  width: 200px;
+  height: auto;
+  z-index: 9999;
+  margin-left: 1150px;
+  margin-top: 1600px;
+  border: 1px solid #b5dbea;
+}
+
+.txt-Ha1_txt{
+  color: white;
+  font-size: 0.3rem;
+  margin: 20px;
+  column-gap: 20px;
+  z-index: 9999;
+}
+
+.txt-Ha1_txt a:-webkit-any-link {
+  text-decoration-line: underline !important;
+  color: white;
+}
+
+.video-Hy_video1 {
+  background-color: black;
+  width: 200px;
+  height: 206px;
+  margin-left: 1380px;
+  margin-top: 1600px;
+  z-index: 9999;
+  position:fixed;
+  border: 1px solid black;
+}
+
+.video-Hy_video3 {
+  background-color: black;
+  width: 200px;
+  height: 206px;
+  margin-left: 1380px;
+  margin-top: 1820px;
+  z-index: 9999;
+  position:fixed;
+  border: 1px solid black;
+}
+
+.box-Hv1_txt{
+  background-color: black;
+  display: inline-block;
+  position:fixed;
+  width: 200px;
+  height: auto;
+  z-index: 9999;
+  margin-left: 1380px;
+  margin-top: 2040px;
+  border: 1px solid #b5dbea;
+}
+
+.txt-Hv1_txt{
+  color: white;
+  font-size: 0.3rem;
+  margin: 20px;
+  column-gap: 20px;
+  z-index: 9999;
+}
+
+.txt-Hv1_txt a:-webkit-any-link {
+  text-decoration-line: underline !important;
+  color: white;
+}
+
+#Ha1Arp1 {
+  color: white;
+  border: 1px solid #b5dbea;
+  background-color: #b5dbea;
+  position: fixed;
+  margin-left: 1300px;
+  margin-top: 1000px;
+  width: 250px;
+  height: 1px;
+  padding: 1px 1px;
+  z-index: 9998;
+}
+
+#Ha1Arp2 {
+  color: white;
+  border: 1px solid #b5dbea;
+  background-color: #b5dbea;
+  position: fixed;
+  margin-left: 1490px;
+  margin-top: 1000px;
+  width: 150px;
+  height: 1px;
+  padding: 1px 1px;
+  z-index: 9998;
+}
+
+.box-HaArp_txt{
+  background-color: black;
+  display: inline-block;
+  position:fixed;
+  width: 200px;
+  height: auto;
+  z-index: 9999;
+  margin-left: 1650px;
+  margin-top: 1000px;
+  border: 1px solid #b5dbea;
+}
+
+.txt-HaArp_txt{
+  color: white;
+  font-size: 0.3rem;
+  margin: 20px;
+  column-gap: 20px;
+  z-index: 9999;
+}
+
+.txt-HaArp_txt a:-webkit-any-link {
+  text-decoration-line: underline !important;
+  color: white;
+}
+
+.point-Ha2 {
+  margin-left: 1770px;
+  margin-top: 1380px;
+  background-color:#b5dbea;
+  position:fixed;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  z-index: 9999;
+  display: flex;
+  justify-content: center;
+}
+
+.Ha2_1{
+  background-image: url(../images/IMG-20170224-WA0004.jpeg);
+  background-repeat: no-repeat;
+  width: 960px;
+  height: 720px;
+  background-size: 100px;
+  margin-left: 1770px;
+  margin-top: 1250px;
+  position: fixed;
+  z-index: 9999;
+}
+
+.Ha2_2{
+  background-image: url(../images/WP_20170222_20_43_00_Pro.jpeg);
+  background-repeat: no-repeat;
+  width: 2592px;
+  height: 1456px;
+  background-size: 100px;
+  margin-left: 1880px;
+  margin-top: 1250px;
+  position: fixed;
+  z-index: 9999;
+}
+
+.Ha2_3{
+  background-image: url(../images/wp_20170224_14_30_09_pro.jpeg);
+  background-repeat: no-repeat;
+  width: 1456px;
+  height: 2592px;
+  background-size: 100px;
+  margin-left: 1990px;
+  margin-top: 1150px;
+  position: fixed;
+  z-index: 9999;
+}
+
+#Ha2pdf1 {
+  color: white;
+  border: 1px solid #b5dbea;
+  background-color: #b5dbea;
+  position: fixed;
+  margin-left: 2100px;
+  margin-top: 1250px;
+  width: 150px;
+  height: 1px;
+  padding: 1px 1px;
+  z-index: 9998;
+}
+
+#Ha2pdf2 {
+  color: white;
+  border: 1px solid #b5dbea;
+  background-color: #b5dbea;
+  position: fixed;
+  margin-left: 2250px;
+  margin-top: 1250px;
+  width: 150px;
+  height: 1px;
+  padding: 1px 1px;
+  z-index: 9998;
+}
+
+#Ha2pdf3 {
+  color: white;
+  border: 1px solid #b5dbea;
+  background-color: #b5dbea;
+  position: fixed;
+  margin-left: 2400px;
+  margin-top: 1250px;
+  width: 150px;
+  height: 1px;
+  padding: 1px 1px;
+  z-index: 9998;
+}
+
+.video-Ha2 {
+  background-color: black;
+  width: 200px;
+  height: 206px;
+  margin-left: 2570px;
+  margin-top: 1250px;
+  z-index: 9999;
+  position:fixed;
+  border: 1px solid black;
+}
+
+.point-Ha {
+  margin-left: 1900px;
+  margin-top: 1450px;
+  background-color:#b5dbea;
+  position:fixed;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  z-index: 9999;
+  display: flex;
+  justify-content: center;
+}
+
+#Hapaper1 {
+  color: white;
+  border: 1px solid #b5dbea;
+  background-color: #b5dbea;
+  position: fixed;
+  margin-left: 1750px;
+  margin-top: 1600px;
+  width: 300px;
+  height: 1px;
+  padding: 1px 1px;
+  z-index: 9998;
+}
+
+#Hapaper2 {
+  color: white;
+  border: 1px solid #b5dbea;
+  background-color: #b5dbea;
+  position: fixed;
+  margin-left: 1750px;
+  margin-top: 1900px;
+  width: 300px;
+  height: 1px;
+  padding: 1px 1px;
+  z-index: 9998;
+}
+
+.box-Hapaper_txt{
+  background-color: black;
+  display: inline-block;
+  position:fixed;
+  width: 200px;
+  height: auto;
+  z-index: 9999;
+  margin-left: 1775px;
+  margin-top: 2200px;
+  border: 1px solid #b5dbea;
+}
+
+.txt-Hapaper_txt{
+  color: white;
+  font-size: 0.3rem;
+  margin: 20px;
+  column-gap: 20px;
+  z-index: 9999;
+}
+
+.txt-Hapaper_txt a:-webkit-any-link {
+  text-decoration-line: underline !important;
+  color: white;
+}
+
+.point-Ha4 {
+  margin-left: 2200px;
+  margin-top: 1460px;
+  background-color:#b5dbea;
+  position:fixed;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  z-index: 9999;
+  display: flex;
+  justify-content: center;
+}
+
+.Ha4_1{
+  background-image: url(../images/macchia-verde-pertusillo-giu-2019.jpeg.jpg);
+  background-repeat: no-repeat;
+  width: 960px;
+  height: 720px;
+  background-size: 100px;
+  margin-left: 2200px;
+  margin-top: 1580px;
+  position: fixed;
+  z-index: 9999;
+}
+
+.Ha4_2{
+  background-image: url(../images/62611145_2311652838949326_4369856609220820992_n.jpeg.jpg);
+  background-repeat: no-repeat;
+  width: 960px;
+  height: 720px;
+  background-size: 100px;
+  margin-left: 2200px;
+  margin-top: 1490px;
+  position: fixed;
+  z-index: 9999;
+}
+
+.Ha4_3{
+  background-image: url(../images/62505368_2839321789428206_1410762169640812544_n.jpeg.jpg);
+  background-repeat: no-repeat;
+  width: 960px;
+  height: 540px;
+  background-size: 100px;
+  margin-left: 2325px;
+  margin-top: 1490px;
+  position: fixed;
+  z-index: 9999;
+}
+
+.Ha4_4{
+  background-image: url(../images/image3-e1560966407230.jpeg.jpg);
+  background-repeat: no-repeat;
+  width: 3024px;
+  height: 4032px;
+  background-size: 100px;
+  margin-left: 2325px;
+  margin-top: 1560px;
+  position: fixed;
+  z-index: 9999;
+}
+
+.box-Ha4_txt{
+  background-color: black;
+  display: inline-block;
+  position:fixed;
+  width: 200px;
+  height: auto;
+  z-index: 9999;
+  margin-left: 2200px;
+  margin-top: 1720px;
+  border: 1px solid #b5dbea;
+}
+
+.txt-Ha4_txt{
+  color: white;
+  font-size: 0.3rem;
+  margin: 20px;
+  column-gap: 20px;
+  z-index: 9999;
+}
+
+.txt-Ha4_txt a:-webkit-any-link {
+  text-decoration-line: underline !important;
+  color: white;
+}

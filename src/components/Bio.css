@@ -157,3 +157,301 @@
   z-index: 9999;
 }
 
+.point-Bi_art {
+  margin-left: 1390px;
+  margin-top: 1000px;
+  background-color:#a6986f;
+  position:fixed;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  z-index: 9999;
+  display: flex;
+  justify-content: center;
+}
+
+.box-Bi_art{
+  background-color: rgba(0, 0 ,0, 0);
+  position:fixed;
+  width: 200px;
+  height: 400px;
+  z-index: 9999;
+  margin-left: 1440px;
+  margin-top: 870px;
+}
+
+#Bia2 {
+  color: white;
+  border: 1px solid #a6986f;
+  background-color: #a6986f;
+  position: fixed;
+  margin-top: 550px; 
+  margin-left:1440px;
+  width: 300px;
+  height: 1px;
+  padding: 1px 1px;
+  z-index: 9998;
+}
+
+.box-Ba2_txt{
+  background-color: black;
+  display: inline-block;
+  position:fixed;
+  width: 200px;
+  height: auto;
+  z-index: 9999;
+  margin-top: 550px; 
+  margin-left:1780px;
+  border: 1px solid #a6986f;
+}
+
+.txt-Ba2_txt{
+  color: white;
+  font-size: 0.3rem;
+  margin: 20px;
+  column-gap: 20px;
+  z-index: 9999;
+}
+
+.txt-Ba2_txt a:-webkit-any-link {
+  text-decoration-line: underline !important;
+  color: white;
+}
+
+.point-Bv {
+  margin-left: 1190px;
+  margin-top: 770px;
+  background-color:#a6986f;
+  position:fixed;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  z-index: 9999;
+  display: flex;
+  justify-content: center;
+}
+
+.box-Bv_txt{
+  background-color: black;
+  display: inline-block;
+  position:fixed;
+  width: 200px;
+  height: auto;
+  z-index: 9999;
+  margin-left: 950px;
+  margin-top: 770px;
+  border: 1px solid #a6986f;
+}
+
+.txt-Bv_txt{
+  color: white;
+  font-size: 0.3rem;
+  margin: 20px;
+  column-gap: 20px;
+  z-index: 9999;
+}
+
+.txt-Bv_txt a:-webkit-any-link {
+  text-decoration-line: underline !important;
+  color: white;
+}
+
+.video-Bi_v {
+  background-color: black;
+  width: 300px;
+  height: 206px;
+  margin-left: 630px;
+  margin-top: 770px;
+  z-index: 9999;
+  position:fixed;
+  border: 1px solid black;
+}
+
+.box-Bd_txt{
+  background-color: black;
+  display: inline-block;
+  position:fixed;
+  width: 200px;
+  height: auto;
+  z-index: 9999;
+  margin-left: 850px;
+  margin-top: 470px;
+  border: 1px solid #a6986f;
+}
+
+.txt-Bd_txt{
+  color: white;
+  font-size: 0.3rem;
+  margin: 20px;
+  column-gap: 20px;
+  z-index: 9999;
+}
+
+.txt-Bd_txt a:-webkit-any-link {
+  text-decoration-line: underline !important;
+  color: white;
+}
+
+#Bidocu1 {
+  color: white;
+  border: 1px solid #a6986f;
+  background-color: #a6986f;
+  position: fixed;
+  margin-left: 520px;
+  margin-top: 470px;
+  width: 300px;
+  height: 1px;
+  padding: 1px 1px;
+  z-index: 9999;
+}
+
+.point-Bp {
+  margin-left: 1800px;
+  margin-top: 1440px;
+  background-color:#a6986f;
+  position:fixed;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  z-index: 9999;
+  display: flex;
+  justify-content: center;
+}
+
+.box-Bp_txt{
+  background-color: black;
+  display: inline-block;
+  position:fixed;
+  width: 200px;
+  height: auto;
+  z-index: 9999;
+  margin-left: 1700px;
+  margin-top: 1520px;
+  border: 1px solid #a6986f;
+}
+
+.txt-Bp_txt{
+  color: white;
+  font-size: 0.3rem;
+  margin: 20px;
+  column-gap: 20px;
+  z-index: 9999;
+}
+
+.txt-Bp_txt a:-webkit-any-link {
+  text-decoration-line: underline !important;
+  color: white;
+}
+
+.pesci1{
+  background-image: url(../images/moria-pesci.png);
+  background-repeat: no-repeat;
+  width: 679px;
+  height: 491px;
+  background-size: 200px;
+  margin-left: 2050px;
+  margin-top: 1520px;
+  position: fixed;
+  z-index: 9999;
+}
+
+.pesci2{
+  background-image: url(../images/moria-pesci-3.jpeg);
+  background-repeat: no-repeat;
+  width: 1000px;
+  height: 491px;
+  background-size: 200px;
+  margin-left: 2260px;
+  margin-top: 1520px;
+  position: fixed;
+  z-index: 9999;
+}
+
+.pesci3{
+  background-image: url(../images/moria-pesci-9-maggio-2020-foto-luciana-brandi.jpeg);
+  background-repeat: no-repeat;
+  width: 960px;
+  height: 720px;
+  background-size: 200px;
+  margin-left: 2470px;
+  margin-top: 1520px;
+  position: fixed;
+  z-index: 9999;
+}
+
+.video-Bp_video {
+  background-color: black;
+  width: 300px;
+  height: 206px;
+  margin-left: 2470px;
+  margin-top: 1690px;
+  z-index: 9999;
+  position:fixed;
+  border: 1px solid black;
+}
+
+.box-BPv_txt{
+  background-color: black;
+  display: inline-block;
+  position:fixed;
+  width: 200px;
+  height: auto;
+  z-index: 9999;
+  margin-left: 2260px;
+  margin-top: 1690px;
+  border: 1px solid #a6986f;
+}
+
+.txt-BPv_txt{
+  color: white;
+  font-size: 0.3rem;
+  margin: 20px;
+  column-gap: 20px;
+  z-index: 9999;
+}
+
+.point-Bia1 {
+  margin-left: 2650px;
+  margin-top: 440px;
+  background-color:#a6986f;
+  position:fixed;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  z-index: 9999;
+  display: flex;
+  justify-content: center;
+}
+
+.box-Ba1_txt{
+  background-color: black;
+  display: inline-block;
+  position:fixed;
+  width: 200px;
+  height: auto;
+  z-index: 9999;
+  margin-left: 2400px;
+  margin-top: 440px;
+  border: 1px solid #a6986f;
+}
+
+.txt-Ba1_txt{
+  color: white;
+  font-size: 0.3rem;
+  margin: 20px;
+  column-gap: 20px;
+  z-index: 9999;
+}
+
+#Bia1 {
+  color: white;
+  border: 1px solid #a6986f;
+  background-color: #a6986f;
+  position: fixed;
+  margin-left: 2400px;
+  margin-top: 650px;
+  width: 300px;
+  height: 1px;
+  padding: 1px 1px;
+  z-index: 9998;
+}
