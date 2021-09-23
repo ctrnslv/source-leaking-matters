@@ -30,7 +30,7 @@ class Ha1pdf1 extends Component{
     const { pageNumber, numPages } = this.state;
 
     return (
-      <div id="doc" style={{width:"100%"}}
+      <div id="doc" 
       >
         <Document
           file={file}
