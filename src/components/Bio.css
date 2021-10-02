@@ -67,7 +67,7 @@
   padding: 10px;
   line-height: 0.9rem;
 }
-  
+
 .img {
     background-image: url(../images/map-3000.png);
     background-repeat: no-repeat;
@@ -78,7 +78,7 @@
 }
 
 .canvas{
-  width: 100%;    
+  width: 100%;
   /* max-width: 8400px;
   width: 100%;
   max-height: 6700px;
@@ -87,11 +87,11 @@
 
 .tools{
     z-index: 9999;
-    margin-top:90px; 
+    margin-top:90px;
     display: flex;
     position: fixed;
     float: right;
-    margin-left: auto; 
+    margin-left: auto;
     margin-right: 0;
 }
 
@@ -142,7 +142,7 @@
 }
 
 .txt-Bi_txt{
-  font-size: 0.35rem;
+  font-size: 0.45rem;
   margin: 20px;
   column-count: 3;
   column-gap: 20px;
@@ -185,7 +185,7 @@
   border: 1px solid #a6986f;
   background-color: #a6986f;
   position: fixed;
-  margin-top: 550px; 
+  margin-top: 550px;
   margin-left:1440px;
   width: 300px;
   height: 1px;
@@ -200,14 +200,14 @@
   width: 200px;
   height: auto;
   z-index: 9999;
-  margin-top: 550px; 
+  margin-top: 550px;
   margin-left:1780px;
-  border: 1px solid #a6986f;
+  border: 0px solid #a6986f;
 }
 
 .txt-Ba2_txt{
   color: white;
-  font-size: 0.3rem;
+  font-size: 0.35rem;
   margin: 20px;
   column-gap: 20px;
   z-index: 9999;
@@ -240,12 +240,12 @@
   z-index: 9999;
   margin-left: 950px;
   margin-top: 770px;
-  border: 1px solid #a6986f;
+  border: 0px solid #a6986f;
 }
 
 .txt-Bv_txt{
   color: white;
-  font-size: 0.3rem;
+  font-size: 0.35rem;
   margin: 20px;
   column-gap: 20px;
   z-index: 9999;
@@ -264,7 +264,7 @@
   margin-top: 770px;
   z-index: 9999;
   position:fixed;
-  border: 1px solid black;
+  border: 0px solid black;
 }
 
 .box-Bd_txt{
@@ -281,7 +281,7 @@
 
 .txt-Bd_txt{
   color: white;
-  font-size: 0.3rem;
+  font-size: 0.35rem;
   margin: 20px;
   column-gap: 20px;
   z-index: 9999;
@@ -327,12 +327,12 @@
   z-index: 9999;
   margin-left: 1700px;
   margin-top: 1520px;
-  border: 1px solid #a6986f;
+  border: 0px solid #a6986f;
 }
 
 .txt-Bp_txt{
   color: white;
-  font-size: 0.3rem;
+  font-size: 0.40rem;
   margin: 20px;
   column-gap: 20px;
   z-index: 9999;
@@ -399,12 +399,12 @@
   z-index: 9999;
   margin-left: 2260px;
   margin-top: 1690px;
-  border: 1px solid #a6986f;
+  border: 0px solid #a6986f;
 }
 
 .txt-BPv_txt{
   color: white;
-  font-size: 0.3rem;
+  font-size: 0.40rem;
   margin: 20px;
   column-gap: 20px;
   z-index: 9999;
@@ -432,12 +432,12 @@
   z-index: 9999;
   margin-left: 2400px;
   margin-top: 440px;
-  border: 1px solid #a6986f;
+  border: 0px solid #a6986f;
 }
 
 .txt-Ba1_txt{
   color: white;
-  font-size: 0.3rem;
+  font-size: 0.40rem;
   margin: 20px;
   column-gap: 20px;
   z-index: 9999;

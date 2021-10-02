@@ -4,17 +4,17 @@
 
 #APpaper1 {
     color: white;
-    border: 1px solid #b08af2;
+    border: 0px solid #b08af2;
     background-color: #b08af2;
     position: fixed;
-    margin-top: 1365px; 
+    margin-top: 1365px;
     margin-left:1310px;
     width: 300px;
     height: 1px;
     padding: 1px 1px;
     z-index: 9998;
   }
-  
+
   .point-APpaper1 {
     background-color:#b08af2;
     position:fixed;
@@ -37,12 +37,12 @@
     z-index: 9999;
     margin-left: 1100px;
     margin-top: 1365px;
-    border: 1px solid #b08af2;
+    border: 0px solid #b08af2;
   }
 
   .txt-APpaper1{
     color: white;
-    font-size: 0.3rem;
+    font-size: 0.35rem;
     margin: 20px;
     column-gap: 20px;
     z-index: 9999;
@@ -57,19 +57,19 @@
     z-index: 9999;
     margin-left: 1100px;
     margin-top: 1650px;
-    border: 1px solid #b08af2;
+    border: 0px solid #b08af2;
   }
 
   .txt-Ai_int{
     color: white;
-    font-size: 0.3rem;
+    font-size: 0.35rem;
     margin: 20px;
     column-gap: 20px;
-    z-index: 9999;    
-    column-count: 3;
+    z-index: 9999;
+    column-count: 4;
   }
 
-  
+
   .img {
     background-image: url(../images/map-3000.png);
     background-repeat: no-repeat;
@@ -80,7 +80,7 @@
   }
 
   .canvas{
-    width: 100%;    
+    width: 100%;
     /* max-width: 8400px;
     width: 100%;
     max-height: 6700px;
@@ -89,14 +89,14 @@
 
   .tools{
     z-index: 9999;
-    margin-top:90px; 
+    margin-top:90px;
     display: flex;
     position: fixed;
     float: right;
-    margin-left: auto; 
+    margin-left: auto;
     margin-right: 0;
   }
-  
+
   .point-At_txt {
 
     margin-left: 1250px;
@@ -135,7 +135,7 @@
     z-index: 9999;
     margin-left: 650px;
     margin-top: 1030px;
-    border: 1px solid #b08af2;
+    border: 0px solid #b08af2;
     color: black;
   }
 
@@ -144,7 +144,7 @@
   }
 
   .txt-At_txt{
-    font-size: 0.35rem;
+    font-size: 0.45rem;
     margin: 20px;
     column-count: 3;
     column-gap: 20px;
@@ -192,12 +192,12 @@
     z-index: 9999;
     margin-left: 750px;
     margin-top: 750px;
-    border: 1px solid #b08af2;
+    border: 0px solid #b08af2;
   }
 
   .txt-At_video1{
     color: white;
-    font-size: 0.3rem;
+    font-size: 0.33rem;
     margin: 20px;
     column-gap: 20px;
     z-index: 9999;
@@ -223,12 +223,12 @@
     z-index: 9999;
     margin-left: 1580px;
     margin-top: 1140px;
-    border: 1px solid #b08af2;
+    border: 0px solid #b08af2;
   }
 
   .txt-At_video2{
     color: white;
-    font-size: 0.3rem;
+    font-size: 0.35rem;
     margin: 20px;
     column-gap: 20px;
     z-index: 9999;
@@ -280,12 +280,12 @@
     z-index: 9999;
     margin-left: 1680px;
     margin-top: 365px;
-    border: 1px solid #b08af2;
+    border: 0px solid #b08af2;
   }
 
   .txt-Av_txt{
     color: white;
-    font-size: 0.3rem;
+    font-size: 0.35rem;
     margin: 20px;
     column-gap: 20px;
     z-index: 9999;
@@ -356,10 +356,3 @@
     padding: 10px;
     line-height: 0.9rem;
   }
-
-
-
-
-  
-
-

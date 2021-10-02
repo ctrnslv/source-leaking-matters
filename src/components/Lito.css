@@ -20,7 +20,7 @@
 }
 
 .txt-Li_txt{
-  font-size: 0.35rem;
+  font-size: 0.45rem;
   margin: 20px;
   column-count: 3;
   column-gap: 20px;
@@ -68,12 +68,12 @@
   z-index: 9999;
   margin-left:1140px;
   margin-top: 1300px;
-  border: 1px solid #7596a3;
+  border: 0px solid #7596a3;
 }
 
 .txt-Li_video1{
   color: white;
-  font-size: 0.3rem;
+  font-size: 0.35rem;
   margin: 20px;
   column-gap: 20px;
   z-index: 9999;
@@ -84,7 +84,7 @@
   border: 1px solid #7596a3;
   background-color: #7596a3;
   position: fixed;
-  margin-top: 1300px; 
+  margin-top: 1300px;
   margin-left:400px;
   width: 300px;
   height: 1px;
@@ -97,7 +97,7 @@
   border: 1px solid #7596a3;
   background-color: #7596a3;
   position: fixed;
-  margin-top: 850px; 
+  margin-top: 850px;
   margin-left:1350px;
   width: 300px;
   height: 1px;
@@ -110,7 +110,7 @@
   border: 1px solid #7596a3;
   background-color: #7596a3;
   position: fixed;
-  margin-top: 850px; 
+  margin-top: 850px;
   margin-left:1650px;
   width: 300px;
   height: 1px;
@@ -126,9 +126,9 @@
   width: 200px;
   height: auto;
   z-index: 9999;
-  margin-top: 1150px; 
+  margin-top: 1150px;
   margin-left:1674px;
-  border: 1px solid #7596a3;
+  border: 0px solid #7596a3;
 }
 
 .box-Ld_txt a:-webkit-any-link {
@@ -138,7 +138,7 @@
 
 .txt-Ld_txt{
   color: white;
-  font-size: 0.3rem;
+  font-size: 0.35rem;
   margin: 20px;
   column-gap: 20px;
   z-index: 9999;
@@ -149,7 +149,7 @@
   border: 1px solid #7596a3;
   background-color: #7596a3;
   position: fixed;
-  margin-top: 1050px; 
+  margin-top: 1050px;
   margin-left:1970px;
   width: 300px;
   height: 1px;
@@ -185,7 +185,7 @@
 
 .txt-Li_paptxt1{
   color: white;
-  font-size: 0.3rem;
+  font-size: 0.35rem;
   margin: 20px;
   column-gap: 20px;
   z-index: 9999;
@@ -216,12 +216,12 @@
   z-index: 9999;
   margin-left: 1750px;
   margin-top: 550px;
-  border: 1px solid #7596a3;
+  border: 0px solid #7596a3;
 }
 
 .txt-Li_video2{
   color: white;
-  font-size: 0.3rem;
+  font-size: 0.35rem;
   margin: 20px;
   column-gap: 20px;
   z-index: 9999;
@@ -253,12 +253,12 @@
   z-index: 9999;
   margin-left: 1750px;
   margin-top: 305px;
-  border: 1px solid #7596a3;
+  border: 0px solid #7596a3;
 }
 
 .txt-Li_articolo{
   color: white;
-  font-size: 0.3rem;
+  font-size: 0.35rem;
   margin: 20px;
   column-gap: 20px;
   z-index: 9999;
@@ -351,12 +351,12 @@
   z-index: 9999;
   margin-left: 2620px;
   margin-top: 505px;
-  border: 1px solid #7596a3;
+  border: 0px solid #7596a3;
 }
 
 .txt-La_txt{
   color: white;
-  font-size: 0.3rem;
+  font-size: 0.35rem;
   margin: 20px;
   column-gap: 20px;
   z-index: 9999;
@@ -433,7 +433,7 @@
   padding: 10px;
   line-height: 0.9rem;
 }
-  
+
 .img {
     background-image: url(../images/map-3000.png);
     background-repeat: no-repeat;
@@ -444,7 +444,7 @@
 }
 
 .canvas{
-  width: 100%;    
+  width: 100%;
   /* max-width: 8400px;
   width: 100%;
   max-height: 6700px;
@@ -453,11 +453,11 @@
 
 .tools{
     z-index: 9999;
-    margin-top:90px; 
+    margin-top:90px;
     display: flex;
     position: fixed;
     float: right;
-    margin-left: auto; 
+    margin-left: auto;
     margin-right: 0;
 }
 
